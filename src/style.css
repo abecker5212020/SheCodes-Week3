@@ -102,5 +102,7 @@
 
   }
 
-  @media (max-width: 576px) {.img-fluid {display: none;}}
+  @media (max-width: 576px) {.img-fluid {display: none;
+  p {text-align:center;}}
+}
   
