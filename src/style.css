@@ -92,7 +92,15 @@
   
   .btn-primary {
     background: var(--primary-color);
+    box-shadow: var(--box-shadow);
     padding: 20px 15px;
-    margin-left: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin:70px;
+
   }
+
+  @media (max-width: 576px) {.img-fluid {display: none;}}
   
